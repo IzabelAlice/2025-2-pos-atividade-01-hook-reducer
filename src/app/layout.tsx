@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Infoweb-Atividade",
-  description: "Atividade 1 do 2o bimestre com hook reducer e shadcnui",
+  title: "Infoweb-Atividade 1",
+  description: "Atividade 1 do 2° bimestre com hook reducer e shadcnui",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
